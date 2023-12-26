@@ -1,9 +1,7 @@
-# Solution source: https://www.tinkerassist.com/blog/advent-of-code-2023-day-1-trebuchet
-
 sum = 0
 digit_names = ["zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"]
 
-file = open("input.txt", "r")
+file = open("day1/input.txt", "r")
 input_data = file.read()
 input_list = input_data.split('\n')
 
